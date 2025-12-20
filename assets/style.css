@@ -1,0 +1,76 @@
+body {
+    background-color: #0d1117;
+}
+
+* {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #f0f6fc;
+    box-sizing: border-box;
+}
+
+#search {
+    padding-top: 10vw;
+}
+
+#search h1 {
+    margin-inline: auto;
+    width: fit-content;
+}
+
+#search h1 span {
+    color:#6e40c9
+}
+
+#search_box {
+    margin-inline: auto;
+    width: fit-content;
+}
+
+input {
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    background-color: #21262d;
+    max-width: 500px;
+    width: 60vw;
+    border: 2px solid #6e7681;
+    transition: 0.2s;
+    box-shadow: #8957e500 0px 0px 0px 0px, #8957e500 0px 0px 0px 0px;
+}
+
+input:focus {
+    border-color: #6e40c9;
+    box-shadow: #8957e52f 0px 6px 24px 0px, #8957e553 0px 0px 0px 0px;
+}
+
+#bookmarks {
+    max-width: 700px;
+    width: 90vw;
+    margin-inline: auto;
+    margin-top: 100px;
+}
+
+#bookmarks .links {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#bookmarks .links div {
+    width: fit-content;
+}
+
+a {
+    color: #6e40c9;
+}
+
+a:hover {
+    color: #bc8cff;
+}
