@@ -1,12 +1,12 @@
 body {
-    background-color: #0d1117;
+    background-color: #11111b;
 }
 
 * {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
-    color: #f0f6fc;
+    color: #cdd6f4;
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 #search h1 span {
-    color:#6e40c9
+    color:#cba6f7;
 }
 
 #search_box {
@@ -34,17 +34,17 @@ input {
     font-size: 1.2rem;
     border-radius: 0.5rem;
     padding: 0.6rem 1rem;
-    background-color: #21262d;
+    background-color: #313244;
     max-width: 500px;
     width: 60vw;
-    border: 2px solid #6e7681;
+    border: 2px solid #6c7086;
     transition: 0.2s;
-    box-shadow: #8957e500 0px 0px 0px 0px, #8957e500 0px 0px 0px 0px;
+    box-shadow: #b4befe00 0px 0px 0px 0px, #b4befe00 0px 0px 0px 0px;
 }
 
 input:focus {
-    border-color: #6e40c9;
-    box-shadow: #8957e52f 0px 6px 24px 0px, #8957e553 0px 0px 0px 0px;
+    border-color: #cba6f7;
+    box-shadow: #b4befe2f 0px 6px 24px 0px, #b4befe53 0px 0px 0px 0px;
 }
 
 #bookmarks {
@@ -68,9 +68,9 @@ input:focus {
 }
 
 a {
-    color: #6e40c9;
+    color: #cba6f7;
 }
 
 a:hover {
-    color: #bc8cff;
+    color: #b4befe;
 }
